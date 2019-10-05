@@ -12,3 +12,10 @@ address2                    6
 zip                         7
 state (acronym)             10 
 phone                       11
+
+If the LV distance <= 12 (2 per above categories) then it is likely a duplicate.
+
+Process:
+Categorize overall strings by metaphone score, which is comprised of first_name, last_name, company.
+For each overall string, check if LV distance to the original string (first one in list) <= 12.
+  - If it is, keep it.
