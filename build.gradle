@@ -24,4 +24,7 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.9.RELEASE'
+    compile group: 'info.debatty', name: 'java-string-similarity', version: '1.0.1'
+    compile group: 'com.github.vickumar1981', name: 'stringdistance_2.12', version: '1.1.2'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.13'
 }
