@@ -15,6 +15,7 @@
 4. Run via `java -jar all-in-one-jar-1.0.jar`
 
 <h3>My Process:</h3>
+
 1. Categorize overall strings by metaphone score, which is comprised of first_name, last_name, company.
 
 2. For each overall string, check if LV distance to the original string (first one in list) <= 12. If it is, add it to duplicate list. Otherwise, add it to non-dupes.
