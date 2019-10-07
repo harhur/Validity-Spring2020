@@ -5,6 +5,7 @@
 * I had difficulty getting the data to appear in a bullet-format on the Spring server, and it appears that the server terminates immediately after starting up. For convenience I output the likely duplicate/non-duplicate rows to the console.
 
 <h3>How to Compile and Run</h3>
+
 1. `gradle clean`
 
 2. `gradle uberJar` uberJar is a custom task in the `build.gradle` file that generates a JAR with its dependencies.
