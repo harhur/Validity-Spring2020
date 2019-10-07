@@ -2,7 +2,7 @@
 
 * I had a lot of fun working with string similarity algorithms, as I hadn't done anything quite like this before. The idea of indexing English words to their pronunciation is really interesting and I had to determine which properties to include in determining a row's metaphone score. 
 
-* I had difficulty getting the data to appear in a bullet-format on the Spring server, and it appears that the server terminates immediately after starting up. For convenience I output the likely duplicate/non-duplicate rows to the console.
+* I had difficulty getting the data to display in a bullet-format on the Spring server, and it appears that the server terminates immediately after starting up. When I run the application through my IDE (IntelliJ) however, the server will be open on my localhost. As an alternative output, I print the likely duplicate/non-duplicate rows to the console.
 
 <h3>How to Compile and Run</h3>
 
